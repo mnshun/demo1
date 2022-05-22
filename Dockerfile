@@ -16,4 +16,4 @@ COPY --from=builder target/demo1-0.0.1-SNAPSHOT.jar demo1-0.0.1-SNAPSHOT.jar
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "my-app-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "demo1-0.0.1-SNAPSHOT.jar"]
