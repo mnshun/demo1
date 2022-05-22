@@ -40,7 +40,7 @@ public class FsUserTest {
 //        query.setDepartId("");
 //        query.setPageToken("");
         FsUserListResult fsUserListResult = fsService.getUserService().listByDepart(query);
-        System.out.println(query.toJson());
+        System.out.println(fsUserListResult.toJson());
 
     }
 
